@@ -1,0 +1,474 @@
+❌ Erreur : les colonnes du CSV ne correspondent pas aux colonnes attendues.
+
+Colonnes manquantes ou incorrectes :
+- plus.created
+- plus.modified
+- impact.notes
+- victim.victim_id
+- victim.industry
+- plus.timeline.notification.year
+- plus.timeline.notification.month
+- timeline.discovery.value
+- action.Malware
+- action.Hacking
+- action.Social
+- action.Physical
+- action.Misuse
+- action.Error
+- action.Environmental
+- action.Unknown
+- actor.External
+- actor.Internal
+- actor.Partner
+- actor.Unknown
+- attribute.Confidentiality
+- attribute.Integrity
+- attribute.Availability
+- action.error.variety.Capacity shortage
+- action.error.variety.Classification error
+- action.error.variety.Data entry error
+- action.error.variety.Disposal error
+- action.error.variety.Gaffe
+- action.error.variety.Loss
+- action.error.variety.Maintenance error
+- action.error.variety.Malfunction
+- action.error.variety.Misconfiguration
+- action.error.variety.Misdelivery
+- action.error.variety.Misinformation
+- action.error.variety.Omission
+- action.error.variety.Other
+- action.error.variety.Physical accidents
+- action.error.variety.Programming error
+- action.error.variety.Publishing error
+- action.error.variety.Unknown
+- action.hacking.variety.Abuse of functionality
+- action.hacking.variety.Brute force
+- action.hacking.variety.Buffer overflow
+- action.hacking.variety.Cache poisoning
+- action.hacking.variety.Cryptanalysis
+- action.hacking.variety.CSRF
+- action.hacking.variety.DoS
+- action.hacking.variety.Footprinting
+- action.hacking.variety.Forced browsing
+- action.hacking.variety.Format string attack
+- action.hacking.variety.Fuzz testing
+- action.hacking.variety.HTTP request smuggling
+- action.hacking.variety.HTTP request splitting
+- action.hacking.variety.HTTP response smuggling
+- action.hacking.variety.HTTP Response Splitting
+- action.hacking.variety.Integer overflows
+- action.hacking.variety.LDAP injection
+- action.hacking.variety.Mail command injection
+- action.hacking.variety.MitM
+- action.hacking.variety.Null byte injection
+- action.hacking.variety.Offline cracking
+- action.hacking.variety.OS commanding
+- action.hacking.variety.Other
+- action.hacking.variety.Pass-the-hash
+- action.hacking.variety.Path traversal
+- action.hacking.variety.Reverse engineering
+- action.hacking.variety.RFI
+- action.hacking.variety.Routing detour
+- action.hacking.variety.Session fixation
+- action.hacking.variety.Session prediction
+- action.hacking.variety.Session replay
+- action.hacking.variety.Soap array abuse
+- action.hacking.variety.Special element injection
+- action.hacking.variety.SQLi
+- action.hacking.variety.SSI injection
+- action.hacking.variety.Unknown
+- action.hacking.variety.URL redirector abuse
+- action.hacking.variety.Use of backdoor or C2
+- action.hacking.variety.Use of stolen creds
+- action.hacking.variety.Virtual machine escape
+- action.hacking.variety.XML attribute blowup
+- action.hacking.variety.XML entity expansion
+- action.hacking.variety.XML external entities
+- action.hacking.variety.XML injection
+- action.hacking.variety.XPath injection
+- action.hacking.variety.XQuery injection
+- action.hacking.variety.XSS
+- action.hacking.vector.3rd party desktop
+- action.hacking.vector.Backdoor or C2
+- action.hacking.vector.Command shell
+- action.hacking.vector.Desktop sharing
+- action.hacking.vector.Desktop sharing software
+- action.hacking.vector.Other
+- action.hacking.vector.Partner
+- action.hacking.vector.Physical access
+- action.hacking.vector.Unknown
+- action.hacking.vector.VPN
+- action.hacking.vector.Web application
+- action.malware.variety.Adminware
+- action.malware.variety.Adware
+- action.malware.variety.Backdoor
+- action.malware.variety.Brute force
+- action.malware.variety.C2
+- action.malware.variety.Capture app data
+- action.malware.variety.Capture stored data
+- action.malware.variety.Click fraud
+- action.malware.variety.Client-side attack
+- action.malware.variety.Destroy data
+- action.malware.variety.Disable controls
+- action.malware.variety.DoS
+- action.malware.variety.Downloader
+- action.malware.variety.Exploit vuln
+- action.malware.variety.Export data
+- action.malware.variety.Modify data
+- action.malware.variety.Other
+- action.malware.variety.Packet sniffer
+- action.malware.variety.Password dumper
+- action.malware.variety.Ram scraper
+- action.malware.variety.Ransomware
+- action.malware.variety.Rootkit
+- action.malware.variety.Scan network
+- action.malware.variety.Spam
+- action.malware.variety.Spyware/Keylogger
+- action.malware.variety.SQL injection
+- action.malware.variety.Unknown
+- action.malware.variety.Worm
+- action.malware.vector.Direct install
+- action.malware.vector.Download by malware
+- action.malware.vector.Email attachment
+- action.malware.vector.Email autoexecute
+- action.malware.vector.Email link
+- action.malware.vector.Email unknown
+- action.malware.vector.Instant messaging
+- action.malware.vector.Network propagation
+- action.malware.vector.Other
+- action.malware.vector.Remote injection
+- action.malware.vector.Removable media
+- action.malware.vector.Software update
+- action.malware.vector.Unknown
+- action.malware.vector.Web download
+- action.malware.vector.Web drive-by
+- action.physical.variety.Assault
+- action.physical.variety.Bypassed controls
+- action.physical.variety.Connection
+- action.physical.variety.Destruction
+- action.physical.variety.Disabled controls
+- action.physical.variety.Other
+- action.physical.variety.Skimmer
+- action.physical.variety.Snooping
+- action.physical.variety.Surveillance
+- action.physical.variety.Tampering
+- action.physical.variety.Theft
+- action.physical.variety.Unknown
+- action.physical.variety.Wiretapping
+- action.social.variety.Baiting
+- action.social.variety.Bribery
+- action.social.variety.Elicitation
+- action.social.variety.Extortion
+- action.social.variety.Forgery
+- action.social.variety.Influence
+- action.social.variety.Other
+- action.social.variety.Phishing
+- action.social.variety.Pretexting
+- action.social.variety.Propaganda
+- action.social.variety.Scam
+- action.social.variety.Spam
+- action.social.variety.Unknown
+- actor.external.country.AD
+- actor.external.country.AE
+- actor.external.country.AF
+- actor.external.country.AG
+- actor.external.country.AI
+- actor.external.country.AL
+- actor.external.country.AM
+- actor.external.country.AO
+- actor.external.country.AQ
+- actor.external.country.AR
+- actor.external.country.AS
+- actor.external.country.AT
+- actor.external.country.AU
+- actor.external.country.AW
+- actor.external.country.AX
+- actor.external.country.AZ
+- actor.external.country.BA
+- actor.external.country.BB
+- actor.external.country.BD
+- actor.external.country.BE
+- actor.external.country.BF
+- actor.external.country.BG
+- actor.external.country.BH
+- actor.external.country.BI
+- actor.external.country.BJ
+- actor.external.country.BL
+- actor.external.country.BM
+- actor.external.country.BN
+- actor.external.country.BO
+- actor.external.country.BQ
+- actor.external.country.BR
+- actor.external.country.BS
+- actor.external.country.BT
+- actor.external.country.BV
+- actor.external.country.BW
+- actor.external.country.BY
+- actor.external.country.BZ
+- actor.external.country.CA
+- actor.external.country.CC
+- actor.external.country.CD
+- actor.external.country.CF
+- actor.external.country.CG
+- actor.external.country.CH
+- actor.external.country.CI
+- actor.external.country.CK
+- actor.external.country.CL
+- actor.external.country.CM
+- actor.external.country.CN
+- actor.external.country.CO
+- actor.external.country.CR
+- actor.external.country.CU
+- actor.external.country.CV
+- actor.external.country.CW
+- actor.external.country.CX
+- actor.external.country.CY
+- actor.external.country.CZ
+- actor.external.country.DE
+- actor.external.country.DJ
+- actor.external.country.DK
+- actor.external.country.DM
+- actor.external.country.DO
+- actor.external.country.DZ
+- actor.external.country.EC
+- actor.external.country.EE
+- actor.external.country.EG
+- actor.external.country.EH
+- actor.external.country.ER
+- actor.external.country.ES
+- actor.external.country.ET
+- actor.external.country.FI
+- actor.external.country.FJ
+- actor.external.country.FK
+- actor.external.country.FM
+- actor.external.country.FO
+- actor.external.country.FR
+- actor.external.country.GA
+- actor.external.country.GB
+- actor.external.country.GD
+- actor.external.country.GE
+- actor.external.country.GF
+- actor.external.country.GG
+- actor.external.country.GH
+- actor.external.country.GI
+- actor.external.country.GL
+- actor.external.country.GM
+- actor.external.country.GN
+- actor.external.country.GP
+- actor.external.country.GQ
+- actor.external.country.GR
+- actor.external.country.GS
+- actor.external.country.GT
+- actor.external.country.GU
+- actor.external.country.GW
+- actor.external.country.GY
+- actor.external.country.HK
+- actor.external.country.HM
+- actor.external.country.HN
+- actor.external.country.HR
+- actor.external.country.HT
+- actor.external.country.HU
+- actor.external.country.ID
+- actor.external.country.IE
+- actor.external.country.IL
+- actor.external.country.IM
+- actor.external.country.IN
+- actor.external.country.IO
+- actor.external.country.IQ
+- actor.external.country.IR
+- actor.external.country.IS
+- actor.external.country.IT
+- actor.external.country.JE
+- actor.external.country.JM
+- actor.external.country.JO
+- actor.external.country.JP
+- actor.external.country.KE
+- actor.external.country.KG
+- actor.external.country.KH
+- actor.external.country.KI
+- actor.external.country.KM
+- actor.external.country.KN
+- actor.external.country.KP
+- actor.external.country.KR
+- actor.external.country.KW
+- actor.external.country.KY
+- actor.external.country.KZ
+- actor.external.country.LA
+- actor.external.country.LB
+- actor.external.country.LC
+- actor.external.country.LI
+- actor.external.country.LK
+- actor.external.country.LR
+- actor.external.country.LS
+- actor.external.country.LT
+- actor.external.country.LU
+- actor.external.country.LV
+- actor.external.country.LY
+- actor.external.country.MA
+- actor.external.country.MC
+- actor.external.country.MD
+- actor.external.country.ME
+- actor.external.country.MF
+- actor.external.country.MG
+- actor.external.country.MH
+- actor.external.country.MK
+- actor.external.country.ML
+- actor.external.country.MM
+- actor.external.country.MN
+- actor.external.country.MO
+- actor.external.country.MP
+- actor.external.country.MQ
+- actor.external.country.MR
+- actor.external.country.MS
+- actor.external.country.MT
+- actor.external.country.MU
+- actor.external.country.MV
+- actor.external.country.MW
+- actor.external.country.MX
+- actor.external.country.MY
+- actor.external.country.MZ
+- actor.external.country.NA
+- actor.external.country.NC
+- actor.external.country.NE
+- actor.external.country.NF
+- actor.external.country.NG
+- actor.external.country.NI
+- actor.external.country.NL
+- actor.external.country.NO
+- actor.external.country.NP
+- actor.external.country.NR
+- actor.external.country.NU
+- actor.external.country.NZ
+- actor.external.country.OM
+- actor.external.country.Other
+- actor.external.country.PA
+- actor.external.country.PE
+- actor.external.country.PF
+- actor.external.country.PG
+- actor.external.country.PH
+- actor.external.country.PK
+- actor.external.country.PL
+- actor.external.country.PM
+- actor.external.country.PN
+- actor.external.country.PR
+- actor.external.country.PS
+- actor.external.country.PT
+- actor.external.country.PW
+- actor.external.country.PY
+- actor.external.country.QA
+- actor.external.country.RE
+- actor.external.country.RO
+- actor.external.country.RS
+- actor.external.country.RU
+- actor.external.country.RW
+- actor.external.country.SA
+- actor.external.country.SB
+- actor.external.country.SC
+- actor.external.country.SD
+- actor.external.country.SE
+- actor.external.country.SG
+- actor.external.country.SH
+- actor.external.country.SI
+- actor.external.country.SJ
+- actor.external.country.SK
+- actor.external.country.SL
+- actor.external.country.SM
+- actor.external.country.SN
+- actor.external.country.SO
+- actor.external.country.SR
+- actor.external.country.SS
+- actor.external.country.ST
+- actor.external.country.SV
+- actor.external.country.SX
+- actor.external.country.SY
+- actor.external.country.SZ
+- actor.external.country.TC
+- actor.external.country.TD
+- actor.external.country.TF
+- actor.external.country.TG
+- actor.external.country.TH
+- actor.external.country.TJ
+- actor.external.country.TK
+- actor.external.country.TL
+- actor.external.country.TM
+- actor.external.country.TN
+- actor.external.country.TO
+- actor.external.country.TR
+- actor.external.country.TT
+- actor.external.country.TV
+- actor.external.country.TW
+- actor.external.country.TZ
+- actor.external.country.UA
+- actor.external.country.UG
+- actor.external.country.UM
+- actor.external.country.Unknown
+- actor.external.country.US
+- actor.external.country.UY
+- actor.external.country.UZ
+- actor.external.country.VA
+- actor.external.country.VC
+- actor.external.country.VE
+- actor.external.country.VG
+- actor.external.country.VI
+- actor.external.country.VN
+- actor.external.country.VU
+- actor.external.country.WF
+- actor.external.country.WS
+- actor.external.country.YE
+- actor.external.country.YT
+- actor.external.country.ZA
+- actor.external.country.ZM
+- actor.external.country.ZW
+- actor.external.variety.Acquaintance
+- actor.external.variety.Activist
+- actor.external.variety.Auditor
+- actor.external.variety.Competitor
+- actor.external.variety.Customer
+- actor.external.variety.Force majeure
+- actor.external.variety.Former employee
+- actor.external.variety.Nation-state
+- actor.external.variety.Organized crime
+- actor.external.variety.Other
+- actor.external.variety.State-affiliated
+- actor.external.variety.Terrorist
+- actor.external.variety.Unaffiliated
+- actor.external.variety.Unknown
+- actor.internal.motive.Convenience
+- actor.internal.motive.Espionage
+- actor.internal.motive.Fear
+- actor.internal.motive.Financial
+- actor.internal.motive.Fun
+- actor.internal.motive.Grudge
+- actor.internal.motive.Ideology
+- actor.internal.motive.NA
+- actor.internal.motive.Other
+- actor.internal.motive.Secondary
+- actor.internal.motive.Unknown
+- actor.internal.variety.Auditor
+- actor.internal.variety.Call center
+- actor.internal.variety.Cashier
+- actor.internal.variety.Developer
+- actor.internal.variety.Doctor or nurse
+- actor.internal.variety.End-user
+- actor.internal.variety.Executive
+- actor.internal.variety.Finance
+- actor.internal.variety.Guard
+- actor.internal.variety.Helpdesk
+- actor.internal.variety.Human resources
+- actor.internal.variety.Maintenance
+- actor.internal.variety.Manager
+- actor.internal.variety.Other
+- actor.internal.variety.System admin
+- actor.internal.variety.Unknown
+- actor.partner.motive.Convenience
+- actor.partner.motive.Espionage
+- actor.partner.motive.Fear
+- actor.partner.motive.Financial
+- actor.partner.motive.Fun
+- actor.partner.motive.Grudge
+- actor.partner.motive.Ideology
+- actor.partner.motive.NA
+- actor.partner.motive.Other
+- actor.partner.motive.Secondary
+- actor.partner.motive.Unknown
+❌ Erreur COPY : [Errno 13] Permission denied: 'C:\\Users\\MSIù\\OneDrive\\Documents\\UQAC COURS\\HIVER 2025\\VCDB\\data\\csv\\vcdb.csv'
