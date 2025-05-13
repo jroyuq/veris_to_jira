@@ -1,4 +1,4 @@
-# projet veris to jira
+# Veris to jira
 Ce projet a été effectué dans le cadre d'une tâche pratique ayant pour objectif de transférer des incidents depuis la base de données VERIS (VCDB) vers la plateforme JIRA.
 
 # objectif
